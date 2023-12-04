@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'tasks',
     'polls.apps.PollsConfig',
     'newyear',
     'django.contrib.admin',
